@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Aplicacion_Animations</string>
+    <!--Main Activity Strings-->
+    <string name="btnAttack">Atacar</string>
+    <string name="btnMoveLeft">Atras</string>
+    <string name="btnMoveRight">Adelante</string>
+    <string name="btnCharge">Cargar Mana</string>
+
+    <!--Start Activity Strings-->
+    <string name="btnStartGame">Iniciar Juego</string>
+
+
+</resources>

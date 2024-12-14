@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Se define un recurso de tipo Animated Vector, que anima un drawable vectorial (en este caso, una nave espacial) con un movimiento en un path. -->
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/space_ship">
+    <!-- El <target> es el elemento dentro del AnimatedVector que define qué parte de la animación se va a aplicar al vector. -->
+    <!-- 'name' Este es el nombre del objeto (path) que debe coincidir con el nombre de un path en el drawable vectorial. Es decir, el path al que se va a aplicar la animación en este vector. -->
+    <!-- 'animation' Se refiere al archivo de animación en formato .xml en la carpeta 'animator' (en este caso 'animacion_horizontal'). Este archivo definirá cómo debe moverse la nave espacial (ejemplo, moverla horizontalmente). -->
+    <target
+        android:name="path_space_ship"
+        android:animation="@animator/animacion_horizontal"
+        />
+
+</animated-vector>

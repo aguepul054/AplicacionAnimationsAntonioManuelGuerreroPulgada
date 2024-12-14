@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Cada <item> define un cuadro (frame) de la animación (Carga) -->
+    <item android:drawable="@drawable/witch_charge1" android:duration="120"/>
+    <item android:drawable="@drawable/witch_charge2" android:duration="120"/>
+    <item android:drawable="@drawable/witch_charge3" android:duration="120"/>
+    <item android:drawable="@drawable/witch_charge4" android:duration="120"/>
+    <item android:drawable="@drawable/witch_charge5" android:duration="120"/>
+
+</animation-list>

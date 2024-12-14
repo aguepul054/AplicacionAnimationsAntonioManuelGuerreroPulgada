@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Se define una lista de animación para un drawable, donde varios cuadros se van a animar en secuencia. -->
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <!-- 'oneshot' define si la animación se reproduce una sola vez (true) o de forma indefinida (false). Aquí está configurado en 'false' para que se repita continuamente. -->
+
+    <!-- Cada <item> define un cuadro (frame) de la animación (parado)-->
+    <item android:drawable="@drawable/witch_frame1" android:duration="120"/>
+    <item android:drawable="@drawable/witch_frame2" android:duration="120"/>
+    <item android:drawable="@drawable/witch_frame3" android:duration="120"/>
+    <item android:drawable="@drawable/witch_frame4" android:duration="120"/>
+    <item android:drawable="@drawable/witch_frame5" android:duration="120"/>
+    <item android:drawable="@drawable/witch_frame6" android:duration="120"/>
+
+
+</animation-list>

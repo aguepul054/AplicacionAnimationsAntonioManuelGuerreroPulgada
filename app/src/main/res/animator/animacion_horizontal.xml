@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Se define un conjunto de animaciones, en este caso solo tiene una animación -->
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Se define una animación de tipo ObjectAnimator, que anima una propiedad específica de un objeto -->
+
+
+    <!--"android:duration" Duración de la animación en milisegundos. En este caso, 4500ms o 4.5 segundos -->
+    <!--"android:propertyName" Propiedad a animar. "translationX" mueve el objeto a lo largo del eje horizontal (X) -->
+    <!--"android:valueFrom" Valor inicial de la propiedad. En este caso, comienza en 0 (posición inicial en el eje X) -->
+    <!--"android:valueTo" Valor final de la propiedad. El objeto se moverá hasta el valor 1000 en el eje X -->
+    <!--"android:repeatMode" Indica que la animación se debe repetir en reversa, es decir, después de llegar al valor final (1000), el objeto volverá a la posición inicial (0) -->
+    <!--"android:interpolator" Define el tipo de interpolador para la animación. "linear_interpolator" hace que la animación tenga un ritmo constante desde el principio hasta el final -->
+    <objectAnimator
+        android:duration="4500"
+        android:propertyName="translationX"
+        android:valueFrom="0"
+        android:valueTo="1000"
+        android:repeatMode="reverse"
+        android:interpolator="@android:anim/linear_interpolator"
+    />
+</set>
